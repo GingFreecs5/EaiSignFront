@@ -1,0 +1,69 @@
+li {
+    list-style: none;
+    margin: 1.2em 0;
+    border-radius: 5px;
+    display: flex;
+    padding: 0.3em 0;
+    background-color: rgb(217, 227, 227);
+    position: relative;
+}
+li a{
+    font-size: 14px;
+    margin-top: 4px;
+    margin-left: 1em;
+    cursor: pointer;
+}
+li svg {
+    color: #312c2a;
+    margin-left: 7px;
+    font-size: 20px;
+}
+li svg:first-child {
+    font-size: 20px;
+    margin-left: 7px;
+   
+}
+li p {
+    margin-top: 15px;
+    flex: 1;
+    font-size: 0.9rem;
+}
+li .actions {
+    position: absolute;
+    right: 10px;
+    justify-self: flex-end;
+    cursor: pointer;
+}
+li .actions .fa-spinner {
+    font-size: 1.2em;
+}
+.signaturePage{
+    overflow-x:  hidden;
+}
+.signBar{
+        width: 100%;
+        max-height: 60px;
+        
+        z-index: 3;
+        position: fixed;
+        bottom: 0;
+        background-color: #ccd6d6;
+}
+.topBarSign {
+    width: 100%;
+    max-height: 80px;
+    
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    background-color: rgb(237, 243, 243);
+}
+.viewer {
+    background-color: #e4e4e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}

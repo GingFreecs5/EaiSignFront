@@ -1,0 +1,17 @@
+.ant-upload.ant-upload-drag{
+    width: 700px;
+    height: 300px;
+}
+.s__container{
+    margin-left: 300px;
+    margin-top: 70px;
+}
+
+.title{
+    font-size: 40px;
+    font-weight: 200;
+    
+}
+.fill{
+    flex : 1 1 auto;
+}

@@ -1,0 +1,31 @@
+.bodycontainer {
+  box-shadow: rgb(60 64 67 / 15%) 0 1px 3px 1px;
+}
+.titleflex {
+  text-align: center;
+}
+.titlecontainer {
+  display: flex;
+  /* width: 220px; */
+  height: auto;
+}
+.sectiontitle {
+  text-align: center;
+  display: inline-block;
+}
+.colmargin {
+  margin: 10px 20px;
+}
+.form-check-label {
+  font-size: 13px;
+}
+
+.error {
+  color: #bf1650;
+  font-size: 13px;
+}
+
+.error::before {
+  display: inline;
+  content: "⚠ ";
+}

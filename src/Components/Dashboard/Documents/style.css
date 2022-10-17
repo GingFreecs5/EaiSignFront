@@ -1,0 +1,29 @@
+.dropdown button {
+  width: 150px;
+  background-color: rgb(81, 147, 209);
+}
+.nom__field {
+  font-weight: bold;
+  font-size: 16px;
+}
+.date__expiration__field {
+  font-size: 13px;
+  font-weight: 200;
+}
+.sidebar__container a {
+  color: rgb(19, 21, 22);
+}
+.css-16awh2u-MuiAutocomplete-root .MuiOutlinedInput-root{
+  padding: 3px !important;
+}
+.css-16awh2u-MuiAutocomplete-root .MuiOutlinedInput-root .MuiAutocomplete-input{
+  padding: 10px 4px 7px 6px !important;
+}
+.autocomplete__class {
+  width: 200px;
+
+}
+.cells{
+  font-weight: bold;
+  font-size: 17px;
+}

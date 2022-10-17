@@ -1,0 +1,15 @@
+.stepfield {
+  border: 1px solid rgb(5, 96, 156);
+  margin-right: 18px;
+  padding: 3px 8px;
+  border-radius: 20px;
+  justify-content: center;
+  cursor: pointer;
+}
+.ant-steps-item {
+  width: 200px;
+  margin-right: 0px;
+}
+.ant-steps {
+  width: 800px;
+}

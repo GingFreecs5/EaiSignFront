@@ -1,0 +1,40 @@
+li {
+    list-style: none;
+    margin: 1.2em 0;
+    background-color: rgb(217, 227, 227);
+        border-radius: 5px;
+    display: flex;
+    padding: 0.2em 1em;
+}
+
+li svg {
+    color: #312c2a;
+}
+
+li svg {
+    font-size: 1.2em;
+   
+}
+
+li p {
+    margin-top: 15px;
+    margin-left: 15px;
+    flex: 1;
+    font-size: 0.9rem;
+}
+
+li .actions {
+    margin-top: 15px;
+    justify-self: flex-end;
+    cursor: pointer;
+}
+
+li .actions .fa-spinner {
+    font-size: 1.2em;
+}
+
+.check {
+        margin-top: 15px;
+    width: 20px;
+    height: 20px;
+}
